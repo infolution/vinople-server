@@ -76,7 +76,7 @@
       <file leaf-file-name="build.sh" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tools/build.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="8" selection-start="19" selection-end="19" vertical-scroll-proportion="0.06315789" vertical-offset="0" max-vertical-offset="570">
+            <state line="4" column="35" selection-start="85" selection-end="85" vertical-scroll-proportion="0.12631579" vertical-offset="0" max-vertical-offset="570">
               <folding />
             </state>
           </provider>
@@ -512,7 +512,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tools/build.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="8" selection-start="19" selection-end="19" vertical-scroll-proportion="0.06315789" vertical-offset="0" max-vertical-offset="570">
+        <state line="4" column="35" selection-start="85" selection-end="85" vertical-scroll-proportion="0.12631579" vertical-offset="0" max-vertical-offset="570">
           <folding />
         </state>
       </provider>
