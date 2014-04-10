@@ -6,6 +6,6 @@ import (
 
 func hello(name string) string {
 
-	return "Hello, " + name "\n"
+	return "Hello, " + name + "\n"
 }
 
