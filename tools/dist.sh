@@ -6,4 +6,4 @@ if [ -z "$1" ]
     exit 1
 fi
 
-cp -R bin/* $1
+cp -R bin $1
