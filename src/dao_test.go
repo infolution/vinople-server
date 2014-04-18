@@ -12,19 +12,19 @@ import (
 
 
 
-func TestPrepareTemplates(t *testing.T) {
+func testPrepareTemplates(t *testing.T) {
 //	w := os.Stdout
 	var buffer bytes.Buffer
 
 	prepareTemplates(&buffer)
 	t.Log(buffer.String())
 }
-func TestReadQueryTemplate(t *testing.T) {
+func testReadQueryTemplate(t *testing.T) {
 	query := readQueryTemplate("artikl")
 	t.Log(query)
 }
 
-func TestDBWrite(t *testing.T) {
+func testDBWrite(t *testing.T) {
 	vinople,err := initVinople(postgresconnTest)
 	defer vinople.db.Close()
 	if err != nil {

@@ -20,6 +20,7 @@ import (
 	//	"github.com/go-martini/martini"
 	//	"github.com/satori/go.uuid"
 	"github.com/sirsean/go-mailgun/mailgun"
+//	"code.google.com/p/go.net/websocket"
 )
 
 type Vinople struct {
@@ -76,5 +77,9 @@ func main() {
 
 	http.HandleFunc("/echo/", echoHandler)
 	http.HandleFunc("/signup/", signupHandler)
+	http.HandleFunc("/login/", loginHandler)
+	http.HandleFunc("/sync/", syncHandler)
+//	http.Handle("/socket/echo/", websocket.Handler(socketEchoHandler))
+//	http.Handle("/socket/", websocket.Handler(socketHandler))
 	log.Fatal(http.ListenAndServe(":3000", nil))
 }
